@@ -1,0 +1,162 @@
+.project-carousel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+ 
+}
+
+.Pcarousel-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  height: 800px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slide-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #F1EADA;
+}
+
+.slide-image-top {
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #F1EADA;
+}
+
+.slide-image-top img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  width: auto;
+  height: auto;
+}
+
+.slide-content {
+  flex: 1;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.slide-content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #584738;
+}
+
+.slide-content p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #534538;
+  line-height: 1.6;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech-tag {
+  background-color: #a8c7f7;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.github-link {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+.github-link:hover {
+  background-color: #555;
+}
+
+.left-arrow, .right-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: rgb(161, 158, 158);
+  
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.3s;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+.right-arrow {
+  right: 10px;
+}
+
+.dots-container {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.dot {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 0.3s;
+}
+
+.dot.active, .dot:hover {
+  color: white;
+}
+
+/* Responsive design */
+@media (max-width: 968px) {
+  .slide-container {
+    flex-direction: column;
+  }
+  
+  .slide-image {
+    height: 200px;
+  }
+  
+  .slide-content {
+    padding: 1.5rem;
+  }
+  
+  .slide-content h3 {
+    font-size: 1.5rem;
+  }
+}
