@@ -4,8 +4,6 @@ import { gsap } from 'gsap';
 import './PillNav.css';
 
 const PillNav = ({
-  logo,
-  logoAlt = 'Logo',
   items,
   activeHref,
   className = '',
