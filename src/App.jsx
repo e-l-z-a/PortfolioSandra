@@ -3,7 +3,6 @@ import "./App.css";
 import PillNav from "./components/PillNav";
 import StarBorder from "./components/StarBorder";
 import Carousel from "./components/Carousel";
-import logo from "./assets/chat.jpg";
 import ProjCarousel from "./components/ProjectCarousel";
 import DownloadButton from "./components/DownloadButton";
 
@@ -28,8 +27,6 @@ function App() {
       {/* Navbar */}
       <nav className="navbar">
         <PillNav
-          logo={logo}
-          logoAlt="Logo"
           items={[
             
             { label: "WhoAmI", href: "#profile-description" }
