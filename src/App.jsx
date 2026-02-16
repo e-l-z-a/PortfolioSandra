@@ -48,7 +48,7 @@ function App() {
           >
             
             <p>
-              Hey there! I’m a tech enthusiast who graduated with a <span class="highlight">Bachelor of Technology in Computer Science</span> with  a GPA of 8.27. I enjoy building cool and 
+              Hello there! I’m a tech enthusiast who graduated with a <span class="highlight">Bachelor of Technology in Computer Science</span> with  a GPA of 8.27. I enjoy building cool and 
               useful software that makes life easier, and I’m always curious to learn new technologies. I’ve been working on full-stack projects 
               using <span class="highlight">.NET, React, SQL, and Azure</span>, and I love the process of turning ideas into real, working applications.
              
