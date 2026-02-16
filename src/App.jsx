@@ -50,14 +50,16 @@ function App() {
             <p>
               Hello! I’m a Software Engineer with a background in <span class="highlight">Computer Science</span> (GPA: 8.27) and hands-on experience
               across application development, business intelligence, and data reporting.
-              <span>exp</span>
-              
-              Hello there! I’m a tech enthusiast who graduated with a <span class="highlight">Bachelor of Technology in Computer Science</span> with  a GPA of 8.27. I enjoy building cool and 
-              useful software that makes life easier, and I’m always curious to learn new technologies. I’ve been working on full-stack projects 
-              using <span class="highlight">.NET, React, SQL, and Azure</span>, and I love the process of turning ideas into real, working applications.
-             
-              <p>Right now, I’m focused on improving my skills and finding opportunities where I can grow as a developer</p>
-              <p>Let’s connect and build something great!</p></p>
+              I have worked with <span class="highlight">.NET, SQL Server, and Azure</span> to build and support scalable applications, while also developing 
+              SSIS/SSRS-based reporting solutions to deliver reliable business insights. My experience includes <span class="highlight">writing optimized SQL queries, 
+              validating data accuracy, supporting ETL workflows, troubleshooting production issues, and collaborating with stakeholders during 
+              UAT and testing phases.</span>
+            </p>
+              I enjoy solving problems from both a technical and analytical perspective — whether that means developing features, 
+              improving data quality, or optimizing reporting processes. I’m continuously learning and looking for opportunities where I can 
+              contribute across development, data, and support functions.
+              <br />
+              Let’s connect and build impactful solutions.
           </section>
 
           <section
