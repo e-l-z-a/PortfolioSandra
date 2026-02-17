@@ -183,6 +183,15 @@ const ProjectCarousel = () => {
           
           <div className="slide-content">
             <h3>{projects[currentIndex].title}</h3>
+             <a 
+              href={projects[currentIndex].githubUrl} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="github-link"
+            >
+              View on GitHub
+            </a>
+            <p><p></p></p>
             <p>{projects[currentIndex].description}</p>
             
             <div className="technologies">
@@ -191,14 +200,7 @@ const ProjectCarousel = () => {
               ))}
             </div>
             
-            <a 
-              href={projects[currentIndex].githubUrl} 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="github-link"
-            >
-              View on GitHub
-            </a>
+           
           </div>
         </div>
         
