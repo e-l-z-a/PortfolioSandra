@@ -76,7 +76,7 @@ function App() {
                  
                 </div>
                 <h2>Sandra Leo</h2>
-                <p>.NET Developer</p>
+                <p>Custom Software Engineer</p>
                 <div className="button-spacer"></div>
                 <DownloadButton />
               </div>
